@@ -1,0 +1,40 @@
+.login {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login > h1 {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.input {
+    padding: 15px;
+    width: 80%;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.login > button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 85%;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    margin: 10px;
+    cursor: pointer;
+}

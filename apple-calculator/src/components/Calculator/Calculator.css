@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap');
+
+.calculator {
+    height: 730px;
+    width: 500px;
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.726);
+}
+
+.calculator__view{
+    background-color: #56595dd0;
+    height: 140px;
+    border-radius: 20px;
+    width: 100%;
+    margin: 30px;
+    margin-top: 10px;
+    box-shadow: 0 0 10px black inset;
+    overflow-x: scroll;
+}
+
+.calculator__view__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator__view > h1 {
+    color: white;
+    float: right;
+    margin: 20px;
+    font-size: 6pc;
+    font-weight: 300;
+    font-family: 'Montserrat';
+    text-align: right;
+    margin-top: 10px;
+}
+
+.calculator__rows {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    margin-left: 20px;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.calculator__row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.calculator__greyButton {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    background-color: #A5A5A5;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator__orangeButton {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    background-color: #F49D31;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    font-weight: 500;
+    transition: 0.4s;
+}
+
+.calculator__orangeButton.selected {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    background-color: white;
+    color: #F49D31;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    font-weight: 500;
+}
+
+.calculator__DarkgreyButton {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-right: 30px;
+    background-color: #333333;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 31px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.507);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threedots {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    padding-bottom: 5px;
+
+}
+
+.firstDot {
+    height: 16px;
+    background-color: #ED5151;
+    width: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.secondDot {
+    height: 16px;
+    background-color: #F7B742;
+    width: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.thirdDot {
+    height: 16px;
+    background-color: #5EC54F;
+    width: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}

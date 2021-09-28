@@ -1,0 +1,47 @@
+.home {
+    overflow-x: hidden !important;
+    background-color: #14151C ;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.home__card {
+    height: 300px;
+    width: 300px;
+    background-color: #282E3E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.home__card > h1 {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 28px;
+}
+
+.diaryEntries__container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.create {
+    margin: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 11px;
+    outline: none;
+    background-color: #282E3E;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

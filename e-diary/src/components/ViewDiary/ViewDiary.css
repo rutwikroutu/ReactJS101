@@ -1,0 +1,25 @@
+.viewDiary {
+    overflow-x: hidden !important;
+    background-color: #14151C ;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.diary__area {
+    padding: 50px;
+}
+
+.diary__area > h1 {
+    color: white;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+}
+
+.diary__area > h2 {
+    font-size: 22px;
+    color: #fff;
+    word-break: break-word;
+    white-space: pre-line;
+    font-family: 'Montserrat';
+    font-weight: 400
+}
